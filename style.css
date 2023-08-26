@@ -1,0 +1,46 @@
+ html {
+    font: 62.5%; 
+ }
+ h1 {
+    font-size: 2.5rem;
+ }
+ nav {
+    display: flex;
+    height: 15%;
+    border: 1px solid green;
+ }
+ nav img {
+    height: auto;
+ }
+ nav li {
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 10px;
+
+ }
+ .navAlignRight {
+    display: flex;
+    align-items: flex-end;
+ }
+ 
+ #heroImage{
+    width: 70%;
+    height: 100%;
+    margin-left: 25%;
+}
+main {
+    display: flex;
+    padding-top: 5%;
+}
+.mainContainerOne {
+    width: 50%;
+}
+.mainContainerTwo {
+    width: 50%;
+    padding-right: 10%;
+    padding-top: 5%;
+    
+}
