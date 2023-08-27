@@ -13,6 +13,16 @@
  p {
     font-size: 1rem;
  }
+ /* links */
+ a:link {
+   color: black;
+ }
+ a:visited {
+   color: navy;
+ }
+ a:hover {
+   color: gold;
+ }
  nav {
     display: flex;
     height: 60px;
